@@ -1,0 +1,13 @@
+name: DadaSummerHead
+version: 1.0.0
+main: it.dadasmp.summerhead.DadaSummerHead
+api-version: "1.20"
+author: DadaSMP
+commands:
+  summerhead:
+    description: Gestisce l'evento Summer Head.
+    usage: /summerhead <start|stop|status|tp|build|cachekeys>
+    permission: dadasummerhead.admin
+permissions:
+  dadasummerhead.admin:
+    default: op
